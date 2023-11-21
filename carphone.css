@@ -1,0 +1,138 @@
+/* Navigation */
+
+/* body{
+    width: 130vw;
+} */
+
+#navbar{
+    flex-direction: column;
+    height: 127px;
+
+    /* width: 100%; */
+}
+
+
+#navbar ul {
+    font-size: 1.1rem;
+    padding: 0px 1px;
+    padding-bottom: 8px;
+    display: fixed;
+    left: 0%;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* position: fixed; */
+    /* font-size: 1.1rem; */
+    /* top: 90px; */
+    /* left: 25%; */
+
+    /* padding-left: -400px; */
+}
+
+
+#navbar ul li{
+    /* position: relative; */
+    /* left:-200px; */
+    /* position: relative; */
+    /* right: 60%; */
+    font-size: .9rem;
+    /* padding: 1px 3px; */
+    padding: 0px 1px;
+    padding-bottom: 8px;
+    /* padding-left: -400px; */
+}
+
+#navbar ul li a{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* padding: 0px 17px; */
+    padding: 3px 8px;
+    /* margin-bottom: 5px; */
+}
+
+/* home section */
+
+#home{
+    height: 270px;
+    padding: 2px 28px;
+}
+
+
+#home::before{
+    height: 400px;
+}
+
+#home p{
+    font-size: 20px;
+}
+
+/* services section */
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    padding: 13px;
+    margin: 2px 20px;
+    margin-bottom: 20px;
+    /* transition:all 1s ease .5s ;             */
+}
+
+.box:hover{
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* transition:all 10s ease-in-out 10s ;   */
+    height:65vh;
+    /* width:78vw; */
+    width: auto;
+    /* transition:all 1s ease .5s ;             */
+    transform: translate3d(123px);
+    transition:all 4.5s ease-in-out 5.9s ; 
+    /* transform: rotate(360deg); */
+    /* transform: skew(50deg); */
+    /* transform: translate(px, 123px); */
+    
+
+}
+
+#services .box img{
+    height: 117px;
+    margin: auto;
+    display: block;
+}
+
+/* client section */
+
+#clients{
+    flex-wrap: wrap;
+}
+
+#clients img{
+
+    height: 111px;
+    padding: 50px;
+}
+
+/* contact section */
+
+#contact-box form{
+    width: 75%;
+    padding-right: 33px;
+    padding-top: 96px;
+}
+
+#contact-box .form-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer */
+
+
+/* utility classes */
+.h-primary{
+    font-size: 35px;
+}
